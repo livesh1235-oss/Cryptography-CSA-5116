@@ -1,16 +1,7 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -O2
-LDFLAGS = -lm
-
-SRCS = $(wildcard prog*.c)
-BINS = $(SRCS:.c=)
-
-all: $(BINS)
-
-%: %.c
-	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
+all:
+	$(MAKE) -C "LAB OBSERVATION"
 
 clean:
-	rm -f $(BINS)
+	$(MAKE) -C "LAB OBSERVATION" clean
 
 .PHONY: all clean
