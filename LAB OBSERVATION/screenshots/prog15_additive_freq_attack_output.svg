@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="422" viewBox="0 0 820 422">
+<defs>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.4"/>
+  </filter>
+  <linearGradient id="headerGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#2a2b3d"/>
+    <stop offset="100%" stop-color="#1f202e"/>
+  </linearGradient>
+</defs>
+<rect x="10" y="10" width="800" height="402" rx="10" fill="#181825" stroke="#313244" stroke-width="1.5" filter="url(#shadow)"/>
+<path d="M 10 20 A 10 10 0 0 1 20 10 L 800 10 A 10 10 0 0 1 810 20 L 810 52 L 10 52 Z" fill="url(#headerGrad)"/>
+<line x1="10" y1="52" x2="810" y2="52" stroke="#313244" stroke-width="1"/>
+<circle cx="30" cy="28" r="6" fill="#ff5555" stroke="#e0443e" stroke-width="0.5"/>
+<circle cx="50" cy="28" r="6" fill="#ffb86c" stroke="#dea123" stroke-width="0.5"/>
+<circle cx="70" cy="28" r="6" fill="#50fa7b" stroke="#1aab29" stroke-width="0.5"/>
+<text x="410.0" y="32" fill="#a6adc8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="12" font-weight="600" text-anchor="middle">prog15_additive_freq_attack.c — Execution Output</text>
+<text x="30" y="77" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">
+<tspan fill="#50fa7b" font-weight="bold">student@simats-cse</tspan><tspan fill="#6c7086">:</tspan><tspan fill="#8be9fd">~/csa51</tspan><tspan fill="#f8f8f2">$ </tspan><tspan fill="#f1fa8c">./prog15_additive_freq_attack</tspan>
+</text>
+<text x="30" y="97" fill="#bd93f9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">--- 15. Letter Frequency Analysis on Additive Cipher ---</text>
+<text x="30" y="117" fill="#ff79c6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">Ciphertext: KHOOR ZRUOG WKLV LV DQ DGGLWLYH FLSKHU WHVW</text>
+<text x="30" y="137" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13"></text>
+<text x="30" y="157" fill="#50fa7b" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">Top 10 Most Likely Plaintexts:</text>
+<text x="30" y="177" fill="#50fa7b" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">Rank | Shift | Score   | Plaintext</text>
+<text x="30" y="197" fill="#bd93f9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">-------------------------------------------------------------</text>
+<text x="30" y="217" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   1 |     3 |  242.13 | HELLO WORLD THIS IS AN ADDITIVE CIPHER TEST</text>
+<text x="30" y="237" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   2 |    18 |  203.93 | SPWWZ HZCWO ESTD TD LY LOOTETGP NTASPC EPDE</text>
+<text x="30" y="257" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   3 |     7 |  195.89 | DAHHK SKNHZ PDEO EO WJ WZZEPERA YELDAN PAOP</text>
+<text x="30" y="277" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   4 |    14 |  176.39 | WTAAD LDGAS IWXH XH PC PSSXIXKT RXEWTG ITHI</text>
+<text x="30" y="297" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   5 |    10 |  150.72 | AXEEH PHKEW MABL BL TG TWWBMBOX VBIAXK MXLM</text>
+<text x="30" y="317" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   6 |    25 |  149.09 | LIPPS ASVPH XLMW MW ER EHHMXMZI GMTLIV XIWX</text>
+<text x="30" y="337" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   7 |     6 |  148.84 | EBIIL TLOIA QEFP FP XK XAAFQFSB ZFMEBO QBPQ</text>
+<text x="30" y="357" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   8 |     2 |  148.00 | IFMMP XPSME UIJT JT BO BEEJUJWF DJQIFS UFTU</text>
+<text x="30" y="377" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   9 |    17 |  146.43 | TQXXA IADXP FTUE UE MZ MPPUFUHQ OUBTQD FQEF</text>
+<text x="30" y="397" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">  10 |    19 |  143.53 | ROVVY GYBVN DRSC SC KX KNNSDSFO MSZROB DOCD</text>
+</svg>

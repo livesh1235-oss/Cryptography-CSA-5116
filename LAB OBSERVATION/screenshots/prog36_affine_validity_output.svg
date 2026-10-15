@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="342" viewBox="0 0 820 342">
+<defs>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.4"/>
+  </filter>
+  <linearGradient id="headerGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#2a2b3d"/>
+    <stop offset="100%" stop-color="#1f202e"/>
+  </linearGradient>
+</defs>
+<rect x="10" y="10" width="800" height="322" rx="10" fill="#181825" stroke="#313244" stroke-width="1.5" filter="url(#shadow)"/>
+<path d="M 10 20 A 10 10 0 0 1 20 10 L 800 10 A 10 10 0 0 1 810 20 L 810 52 L 10 52 Z" fill="url(#headerGrad)"/>
+<line x1="10" y1="52" x2="810" y2="52" stroke="#313244" stroke-width="1"/>
+<circle cx="30" cy="28" r="6" fill="#ff5555" stroke="#e0443e" stroke-width="0.5"/>
+<circle cx="50" cy="28" r="6" fill="#ffb86c" stroke="#dea123" stroke-width="0.5"/>
+<circle cx="70" cy="28" r="6" fill="#50fa7b" stroke="#1aab29" stroke-width="0.5"/>
+<text x="410.0" y="32" fill="#a6adc8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="12" font-weight="600" text-anchor="middle">prog36_affine_validity.c — Execution Output</text>
+<text x="30" y="77" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">
+<tspan fill="#50fa7b" font-weight="bold">student@simats-cse</tspan><tspan fill="#6c7086">:</tspan><tspan fill="#8be9fd">~/csa51</tspan><tspan fill="#f8f8f2">$ </tspan><tspan fill="#f1fa8c">./prog36_affine_validity</tspan>
+</text>
+<text x="30" y="97" fill="#bd93f9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">--- 36. Affine Caesar Cipher Validity Analysis ---</text>
+<text x="30" y="117" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13"></text>
+<text x="30" y="137" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">Encryption function: C = (a*p + b) mod 26</text>
+<text x="30" y="157" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13"></text>
+<text x="30" y="177" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">a. Limitations on b:</text>
+<text x="30" y="197" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   b can be any integer in [0, 25]. There are no coprimality restrictions on b.</text>
+<text x="30" y="217" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13"></text>
+<text x="30" y="237" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">b. Disallowed values of a:</text>
+<text x="30" y="257" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   For the function to be one-to-one (bijective), &#x27;a&#x27; must be coprime to 26 (gcd(a, 26) == 1).</text>
+<text x="30" y="277" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   Disallowed values of &#x27;a&#x27; (not allowed):</text>
+<text x="30" y="297" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   0 2 4 6 8 10 12 13 14 16 18 20 22 24 </text>
+<text x="30" y="317" fill="#cdd6f4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,monospace" font-size="13">   (Namely: 0, 2, 4, 6, 8, 10, 12, 13, 14, 16, 18, 20, 22, 24)</text>
+</svg>
